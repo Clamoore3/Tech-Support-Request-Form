@@ -36,7 +36,7 @@
         <div class="form-row">
             <label>
                 Message:
-                <textarea name="Message" cols="30" rows=""></textarea></label>
+                <textarea name="Message" cols="30" rows="10"></textarea></label>
             
         </div>
         <div class="form-row">
@@ -66,6 +66,28 @@
                     <input type="radio" name="topic" value="js">
                 </label>
             </fieldset>
+        </div>
+        <div class="form-row">
+            <fieldset>
+                <legend>Check Request</legend>
+                <label>
+                Assistance
+                <input type="checkbox" name="Assistance">
+                </label>
+                <label>
+                Motivation
+                <input type="checkbox" name="Motivation">
+                </label>
+                <label>
+                System Update
+                <input type="checkbox" name="System_update">
+                </label>
+            </fieldset>
+        </div>
+        <div class="form-row">
+            <label>Urgency (0-10)
+            <input type="range" min="0" max="10" name="urgency">
+            </label>
         </div>
         <div class="form-row">
             <button type="submit">Send</button>
